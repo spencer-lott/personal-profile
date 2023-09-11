@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-adsfadsfadsfadsfadsfasdf    </div>
+      Welcome to my personal profile page
+</div>
   );
 }
 
