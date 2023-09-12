@@ -9,11 +9,11 @@ const classes = cn(
   return (
     <div className={classes}>
         <ul>
-            <li className='item link'>Item 1</li>
-            <li className='item link'>Item 2</li>
-            <li className='item link'>Item 3</li>
-            <li className='item link'>Item 4</li>
-            <li className='item link'>Item 5</li>
+            <li className='item link'>About Me</li>
+            <li className='item link'>Projects</li>
+            <li className='item link'>Accomplishments</li>
+            <li className='item link'>Interests</li>
+            <li className='item link'>Family Life</li>
 
         </ul>
         
