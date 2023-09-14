@@ -1,7 +1,5 @@
 .home{
     height: 100vh; 
-    display: flex;
-    border: dotted lime;
 }
 
 .home-bg{
@@ -12,15 +10,16 @@
     z-index: -1;
 }
 
-/* .home-top{
+.home-top{
     display: flex;
-    flex-direction: row-reverse;
-    align-items: end;
+    justify-content: flex-end;
     border: dotted pink;
-} */
+}
 
 .profile-img{
     height: 500px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: 10px;
+    border: solid rgb(24, 20, 20);
 }
 

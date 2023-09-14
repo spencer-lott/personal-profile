@@ -7,6 +7,7 @@ npm i --save @fortawesome/free-brands-svg-icons
 
 npm i --save @fortawesome/react-fontawesome@latest
 
+npm i reactstrap react react-dom
 ------------------------------------------------------
 
 # Getting Started with Create React App
