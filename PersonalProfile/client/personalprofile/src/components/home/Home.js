@@ -1,30 +1,42 @@
-import "./home.css"
-// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-// import {faTwitter} from "@fortawesome/free-brands-svg-icons"; // Import the Twitter icon from the free-brands-svg-icons package
-
+import React from "react";
+import "./home.css";
 
 export default function Home() {
     return (
-        <div className='home'>
-            <h1>Welcome to the home page</h1>
-            <div class="ui vertically divided grid">
-                <div class="two column row">
-                    <div class="column"><img src="https://cms-tc.pbskids.org/global/mezzanines/shows/curious-george.jpg" class="ui image"/></div>
-                    <div class="column"><img src="https://cms-tc.pbskids.org/global/mezzanines/shows/curious-george.jpg" class="ui image"/></div>
-                </div>
-                <div class="row">
-                    <h1>My projects</h1>
-                    <h2 className="ui header">
-                        {/* <FontAwesomeIcon icon={faTwitter}/> */}
-                        <div className="content">Learn More</div>
-                    </h2>
-                </div>
-                <div class="three column row">
-                    <div class="column"><img src="https://cms-tc.pbskids.org/global/mezzanines/shows/curious-george.jpg" class="ui image"/></div>
-                    <div class="column"><img src="https://cms-tc.pbskids.org/global/mezzanines/shows/curious-george.jpg" class="ui image"/></div>
-                    <div class="column"><img src="https://cms-tc.pbskids.org/global/mezzanines/shows/curious-george.jpg" class="ui image"/></div>
-                </div>
+        <>
+        <div className="home">
+            <img className="home-bg" src='/images/NewRiverGorge-Cover.jpg' alt=""/>
+            <div className="home-top">
+                <img className="profile-img" src="/images/Snowy-Profile-Shot-Cropped.jpg" alt="" />
+                <div></div>
             </div>
         </div>
-    )
+        </>
+    );
 }
+
+
+
+            {/* <div className="ui container observer"></div> */}
+            {/* <div class="ui container">
+                <div class="ui grid">
+                    <div class="row">
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                        <div class="column"><button class="ui fluid button">Button</button></div>
+                    </div>
+                </div>
+            </div> */}
