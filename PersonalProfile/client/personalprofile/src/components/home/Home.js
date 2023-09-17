@@ -1,16 +1,23 @@
 import React from "react";
 import "./home.css";
-import { Container, Row } from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
 
 export default function Home() {
     return (
         <>
         <div className="home">
-            <img className="home-bg" src='/images/NewRiverGorge-Cover.jpg' alt=""/>
+            {/* <img className="home-bg" src='/images/Neon-Background.jpg' alt=""/> */}
             <Container>
                 <Row>
                     <div className="home-top">
-                        <img className="profile-img" src="/images/Snowy-Profile-Shot-Cropped.jpg" alt="" />
+                        <div className="col1">
+                            <h1>Spencer Lott</h1>
+                            <h2>Junior Full-Stack Developer</h2>
+                            <h3>Huntington-Charleston, WV area</h3>
+                         </div>
+                         <div className="col2">
+                            <img className="profile-img" src="/images/Spencer-Lott-Headshot-Copy-SQ.jpeg" alt="no image" />
+                         </div>
                     </div>
                 </Row>
             </Container>
